@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "thmanyah sans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/thmanyahsans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "thmanyah sans";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/thmanyahsans-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "thmanyah sans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/thmanyahsans-Bold.woff2") format("woff2");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+/* Scroll reveal (used by <Reveal /> in App.jsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s ease var(--d, 0ms),
+    transform 0.7s ease var(--d, 0ms);
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal.is-in .stat-card {
+  animation:
+    stat-in 0.55s ease-out var(--stat-delay, 0ms) both,
+    stat-float 2.8s ease-in-out calc(var(--stat-delay, 0ms) + 0.55s) infinite;
+}
+@keyframes stat-in {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes stat-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -4px;
+  }
+}
+
+/* Hero headline highlight that draws itself (RTL: starts from the right) */
+.hl {
+  background: linear-gradient(transparent 78%, rgba(255, 200, 46, 0.55) 78%)
+    no-repeat right / 0% 100%;
+  transition: background-size 0.7s ease-out;
+}
+.reveal.is-in .hl {
+  background-size: 100% 100%;
+}
+
+.page-content-loading > :not(.page-skeleton) {
+  visibility: hidden;
+}
+.skeleton-block {
+  position: relative;
+  overflow: hidden;
+  background: #e9e9ef;
+}
+.skeleton-block::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.7),
+    transparent
+  );
+  content: "";
+  transform: translateX(-100%);
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+@keyframes skeleton-shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .hl {
+    background-size: 100% 100%;
+  }
+}
