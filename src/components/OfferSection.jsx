@@ -5,7 +5,7 @@ export default function OfferSection() {
   return (
     <Box
       id="offer"
-      className="bg-[#f5f6fb]"
+      className="bg-tertiary"
       inner="flex flex-col items-center gap-7 md:gap-8"
     >
       <img
@@ -31,7 +31,7 @@ export default function OfferSection() {
           {OFFER.map((t, i) => (
             <li key={t} className="flex items-center gap-2 font-medium">
               <img
-                src={a(i < 5 ? "tick-a.svg" : "tick-b.svg")}
+                src={a(i < 5 ? "check.svg" : "check.svg")}
                 alt="check icon"
                 className="size-5"
               />
@@ -43,7 +43,7 @@ export default function OfferSection() {
         <hr className="border-[#dfdfdf]" />
         <p className="text-center text-sm lg:text-base font-medium">
           هذه الباقة هي الطريق الأسرع{" "}
-          <span className="text-primary">للتحول الرقمي الحقيقي</span>
+          <span className="text-secondary-90">للتحول الرقمي الحقيقي</span>
         </p>
       </Reveal>
     </Box>

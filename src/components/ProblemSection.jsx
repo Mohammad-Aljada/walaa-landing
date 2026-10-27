@@ -34,7 +34,7 @@ export default function ProblemSection() {
           </Reveal>
         ))}
       </div>
-      <Reveal className="flex flex-col items-center gap-2 rounded-lg bg-[#f5f6fb] px-4 py-7 text-center text-base sm:px-20 md:text-lg lg:text-xl md:px-12">
+      <Reveal className="flex flex-col items-center gap-2 rounded-lg bg-tertiary px-4 py-7 text-center text-base sm:px-20 md:text-lg lg:text-xl md:px-12">
         <p>
           وكل يوم يمر بدون استراتيجية: الوقت يضيع، الفرص تضيع، المنافس يكبر،
           واسمك يختفي بين الزحمة.

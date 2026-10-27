@@ -27,7 +27,7 @@ export function Reveal({ delay = 0, className = "", children, ...p }) {
   );
 }
 export const Tag = ({ children }) => (
-  <span className="rounded-[10px] bg-[#f2f2f2] px-4 py-2 text-xs font-bold text-primary md:px-5 md:py-1.5 md:text-xs lg:px-6">
+  <span className="rounded-[10px] bg-[#f2f2f2] px-4 py-2 text-xs font-bold text-secondary-90 md:px-5 md:py-1.5 md:text-xs lg:px-6">
     {children}
   </span>
 );
@@ -37,7 +37,7 @@ export const H2 = ({ children }) => (
   </h2>
 );
 export const Hi = ({ children }) => (
-  <span className="hl text-primary">{children}</span>
+  <span className="hl text-secondary-90">{children}</span>
 );
 export const Head = ({ tag, children }) => (
   <Reveal className="flex flex-col items-center gap-4 text-center">

@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="flex flex-col items-center gap-4 md:items-start lg:gap-6">
             <div className="flex flex-col items-center gap-[14px] md:items-start">
               <span
-                className="animate-fade-up rounded-xl text-xs lg:text-base bg-[#f2f2f2] px-4 py-2 lg:px-6 lg:py-2 font-bold text-primary"
+                className="animate-fade-up rounded-xl text-xs lg:text-base bg-[#f2f2f2] px-4 py-2 lg:px-6 lg:py-2 font-bold text-secondary-90"
                 style={d(100)}
               >
                 حياك الله
@@ -28,7 +28,7 @@ export default function Hero() {
                   className="animate-fade-up text-[32px] font-bold leading-[1.5] md:text-[36px] lg:text-[48px]"
                   style={d(250)}
                 >
-                  حوّل <span className="hl text-primary">اسمك</span> لبراند يجلب
+                  حوّل <span className="hl text-secondary-90">اسمك</span> لبراند يجلب
                   لك دخل مستدام
                 </h1>
               </Reveal>
@@ -56,12 +56,12 @@ export default function Hero() {
             />
           </div>
           <div className="absolute -left-3 top-8 rotate-2 sm:-left-9">
-            <span className="block animate-float whitespace-nowrap rounded-xl bg-secondary-90 px-2 py-2 lg:px-3 lg:py-3 text-[10px] lg:text-sm font-medium [animation-delay:-2s]">
+            <span className="block animate-float whitespace-nowrap rounded-xl bg-secondary px-2 py-2 lg:px-3 lg:py-3 text-[10px] lg:text-sm font-medium [animation-delay:-2s]">
               كلمات تصنع فرصًا
             </span>
           </div>
           <div className="absolute -right-3 bottom-[18%] rotate-[2.5deg] sm:-right-9">
-            <span className="block animate-float whitespace-nowrap rounded-xl bg-[#fac73a] px-2 py-2 lg:px-2.5 lg:py-2.5 text-[10px] lg:text-[13px] font-medium text-[#090909] [animation-delay:-4s]">
+            <span className="block animate-float whitespace-nowrap rounded-xl bg-secondary px-2 py-2 lg:px-2.5 lg:py-2.5 text-[10px] lg:text-[13px] font-medium text-[#090909] [animation-delay:-4s]">
               فلسطينية الهوى والهوية
             </span>
           </div>

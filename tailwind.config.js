@@ -4,9 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#3a3ac6',
-        secondary: '#ffc82e',
-        'secondary-90': '#ffc31a',
+        primary: '#0B1F5C',
+        secondary: '#FFE45C',
+        'secondary-90': '#1a3b9d',
+        tertiary: '#FAF7EE',
         heading: '#030000',
         body: '#2c2c2c',
       },
@@ -15,7 +16,7 @@ export default {
         sans: ['"thmanyah sans"', 'Tajawal', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        brand: 'linear-gradient(120deg, #2c24a9 8%, #5038d9 54%, #541fb4 92%)',
+        brand: 'linear-gradient(120deg, #0B1F5C 8%, #1a3b9d 54%, #2b59e4 92%)',
       },
       keyframes: {
         fadeUp: { from: { opacity: 0, transform: 'translateY(24px)' }, to: { opacity: 1, transform: 'none' } },

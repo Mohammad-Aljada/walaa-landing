@@ -59,7 +59,7 @@ function Card({ r, active }) {
           </button>
         )}
       </div>
-      <div className="flex h-[100px] flex-col justify-center bg-[#f7f6fa] px-6">
+      <div className="flex h-[100px] flex-col justify-center bg-tertiary px-6">
         <b className="text-xl">{r.n}</b>
         <span className="text-sm text-[#5b5b5b]">{r.r}</span>
       </div>
