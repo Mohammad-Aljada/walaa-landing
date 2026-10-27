@@ -53,7 +53,7 @@ function Card({ r, active }) {
             {more ? "عرض أقل" : "عرض مزيد"}
             <img
               src={a("more.svg")}
-              alt=""
+              alt="arrqqow icon"
               className={`size-3.5 transition ${more ? "rotate-180" : ""}`}
             />
           </button>
@@ -93,11 +93,11 @@ export default function Reviews() {
               className="size-[25px] group-hover:brightness-0 group-hover:invert"
             />
           </button>
-          <div className="flex items-center gap-2 lg:hidden">
+          <div className="flex items-center gap-4 lg:hidden">
             {REVIEWS.map((_, k) => (
               <i
                 key={k}
-                className={`h-2.5 rounded-full transition-all ${k === i ? "w-6 bg-primary" : "w-2.5 bg-[#d6d6e8]"}`}
+                className={`h-4 rounded-full transition-all ${k === i ? "w-5 bg-primary" : "w-4 bg-[#d6d6e8]"}`}
               />
             ))}
           </div>
@@ -114,13 +114,13 @@ export default function Reviews() {
           </button>
         </div>
       </div>
-      <div className="hidden items-center justify-center gap-2 lg:flex">
+      <div className="hidden items-center justify-center gap-4  lg:flex">
         {REVIEWS.map((_, k) => (
           <button
             key={k}
             aria-label={`رأي ${k + 1}`}
             onClick={() => setI(k)}
-            className={`h-2.5 rounded-full transition-all ${k === i ? "w-6 bg-primary" : "w-2.5 bg-[#d6d6e8]"}`}
+            className={`h-4 rounded-full transition-all ${k === i ? "w-5 bg-primary" : "w-4 bg-[#d6d6e8]"}`}
           />
         ))}
       </div>

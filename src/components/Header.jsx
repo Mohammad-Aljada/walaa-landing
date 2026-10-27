@@ -22,7 +22,7 @@ export default function Header() {
               key={h}
               href={h}
               onClick={() => setActive(h)}
-              className={`border-b-2 pb-1 text-base transition-colors hover:text-secondary-90 ${active === h ? " border-secondary-90 font-bold text-secondary-90" : " border-transparent font-medium hover:border-secondary-90"}`}
+              className={`border-b-2 pb-1 text-base transition-colors hover:text-primary ${active === h ? " border-primary font-bold text-primary" : " border-transparent font-medium hover:border-primary"}`}
             >
               {l}
             </a>
