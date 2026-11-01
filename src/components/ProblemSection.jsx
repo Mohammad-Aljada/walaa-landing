@@ -17,7 +17,7 @@ export default function ProblemSection() {
       <Reveal className="relative flex flex-col items-center gap-2 text-center md:gap-3 lg:gap-4">
         <Tag>تعرف هذا الشعور؟</Tag>
         <h2 className="text-2xl font-bold leading-10 sm:text-[32px] md:text-[28px] lg:text-[32px]">
-          أنت الآن ربما <Hi>تعاني</Hi> من واحدة أو أكثر من هذه المشاكل
+           إذا شفت <Hi>نفسك</Hi> في واحدة من هذه.. فأنت في المكان الصح
         </h2>
       </Reveal>
       <div className="relative grid gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-3">

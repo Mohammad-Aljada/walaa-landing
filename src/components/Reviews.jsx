@@ -72,7 +72,7 @@ export default function Reviews() {
   return (
     <Box id="reviews" inner="flex flex-col gap-8">
       <Head tag="أراء العملاء">
-        ماذا يقول <Hi>من عملوا معي</Hi>
+      شو بحكوا <Hi>عملائي</Hi>؟
       </Head>
       <div className="relative mx-auto w-full max-w-[1120px] md:max-w-[760px] lg:max-w-[1120px]">
         <div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-3">
