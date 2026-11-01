@@ -1,5 +1,5 @@
 import { a, OFFER } from "./data.js";
-import { Box, Btn, Head, Reveal } from "./shared.jsx";
+import { Box, Btn, Reveal } from "./shared.jsx";
 
 export default function OfferSection() {
   return (
@@ -8,17 +8,23 @@ export default function OfferSection() {
       className="bg-tertiary"
       inner="flex flex-col items-center gap-7 md:gap-8"
     >
+    
       <img
         src={a("deco-c.svg")}
-        alt=""
+        alt="logo"
         className="pointer-events-none absolute -right-16 -top-6 hidden w-64 lg:block"
       />
       <div className="flex flex-col items-center gap-4 text-center">
-        <Head tag="العرض">
-          <span className="block">باقة تمكين الرقمي</span>
-        </Head>
+        <Reveal className="flex flex-col items-center gap-4 text-center">
+          <span className="relative z-10 rounded-[10px] bg-primary px-6 py-2 text-sm font-bold text-secondary">
+            العرض
+          </span>
+          <h2 className="text-2xl font-bold leading-[1.5] text-heading sm:text-[32px] lg:text-[36px]">
+            باقة تمكين الرقمي
+          </h2>
+        </Reveal>
         <p className="max-w-[1120px] text-center text-sm lg:text-base leading-[1.5] text-body sm:text-xl">
-          هذه الباقة مصممة لأي خبير او بائع خدمات أو صاحب مهارة يريد يتحول من
+          هذه الباقة مصممة لأي خبير أو بائع خدمات أو صاحب مهارة يريد يتحول من
           شخص يقدم محتوى إلى براند قوي يجذب فرص باستمرار
         </p>
       </div>
@@ -43,7 +49,7 @@ export default function OfferSection() {
         <hr className="border-[#dfdfdf]" />
         <p className="text-center text-sm lg:text-base font-medium">
           هذه الباقة هي الطريق الأسرع{" "}
-          <span className="text-secondary-90">للتحول الرقمي الحقيقي</span>
+          <span className="text-primary">للتحول الرقمي الحقيقي</span>
         </p>
       </Reveal>
     </Box>
