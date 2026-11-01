@@ -8,7 +8,7 @@ export default function WhySection() {
         <div className="flex w-full max-w-[544px] flex-col gap-6 md:min-w-0 md:flex-1">
           <div className="flex flex-col gap-4">
             <span className="self-center md:self-start">
-              <Tag>لماذا انا</Tag>
+              <Tag>لماذا أنا</Tag>
             </span>
             <H2>
               خبرة تتحول إلى <Hi>نظام</Hi> وليس مجرد محتوى

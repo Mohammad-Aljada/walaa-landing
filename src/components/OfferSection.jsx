@@ -15,7 +15,7 @@ export default function OfferSection() {
       />
       <div className="flex flex-col items-center gap-4 text-center">
         <Head tag="العرض">
-          <span className="block">باقة التمكين الرقمي</span>
+          <span className="block">باقة تمكين الرقمي</span>
         </Head>
         <p className="max-w-[1120px] text-center text-sm lg:text-base leading-[1.5] text-body sm:text-xl">
           هذه الباقة مصممة لأي خبير او بائع خدمات أو صاحب مهارة يريد يتحول من

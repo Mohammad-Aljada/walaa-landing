@@ -4,7 +4,7 @@ import { Box, Head, Hi, Reveal } from "./shared.jsx";
 export default function HowSection() {
   return (
     <Box id="how" inner="flex flex-col items-center gap-6 lg:gap-8">
-      <Head tag="ألية العمل">
+      <Head tag="آلية العمل">
         نشتغل مع بعض بخطوات <Hi>واضحة</Hi>
       </Head>
       <div className="relative flex w-full max-w-[1120px] flex-col gap-4 md:gap-5 lg:gap-4">
