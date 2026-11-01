@@ -2,7 +2,7 @@ import { a, Instagram, Linkedin, NAV, WA, X } from "./data.js";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f5f6fb]">
+    <footer className="bg-[#FAF7EE]">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-6 px-4 pb-6 pt-10 sm:px-10 md:px-8 md:py-8 lg:px-20 lg:pb-8 lg:pt-14">
         <div className="flex flex-col items-center gap-6 py-4 lg:py-5 lg:flex-row lg:justify-between">
           <div className="flex items-center gap-2">

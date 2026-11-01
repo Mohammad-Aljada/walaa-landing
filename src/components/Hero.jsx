@@ -5,7 +5,6 @@ import { Btn, Reveal } from "./shared.jsx";
 export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-[#FAF7EE]">
-      <i className="pointer-events-none absolute -left-24 bottom-0 h-[344px] w-[359px] animate-blob rounded-full bg-[#5130cd]/15 blur-[64px]" />
       <div className="relative mx-auto flex max-w-[1440px] flex-col items-center justify-between gap-6 px-4 py-4 sm:px-10 md:flex-row md:gap-6 md:px-10 md:py-10 lg:gap-8 lg:px-20 lg:py-6">
         <div className="flex w-full max-w-[588px] flex-col items-center gap-8 text-center md:w-1/2 md:items-start md:text-right lg:w-full">
           <div className="flex flex-col items-center gap-4 md:items-start lg:gap-6">
