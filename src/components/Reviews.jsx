@@ -123,35 +123,35 @@ export default function Reviews() {
           <Card key={`a${i}`} r={REVIEWS[i]} active />
           <Card key={`p${at(-1)}`} r={REVIEWS[at(-1)]} />
         </div>
-        <div className="mt-6 flex items-center justify-center gap-4 md:mt-7 lg:pointer-events-none lg:absolute lg:inset-x-0 lg:top-[182px] lg:mt-0 lg:justify-between">
+        <div className="mt-6 flex items-center justify-center gap-2 md:mt-7 lg:pointer-events-none lg:absolute lg:inset-x-0 lg:top-[182px] lg:mt-0 lg:justify-between lg:gap-4">
           <button
             aria-label="التالي"
             onClick={() => setI(at(1))}
-            className="group pointer-events-auto flex size-12 items-center justify-center rounded-full bg-white shadow-[0_0_7.5px_rgba(151,151,151,.15)] transition-colors hover:bg-primary"
+            className="group pointer-events-auto flex size-10 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_7.5px_rgba(151,151,151,.15)] transition-colors hover:bg-primary lg:size-12"
           >
             <img
               src={a("arrow-b.svg")}
               alt="arrow forward"
-              className="size-[25px] group-hover:brightness-0 group-hover:invert"
+              className="size-5 group-hover:brightness-0 group-hover:invert lg:size-[25px]"
             />
           </button>
-          <div dir="ltr" className="flex items-center gap-4 lg:hidden">
+          <div dir="ltr" className="flex shrink-0 items-center gap-3 lg:hidden">
             {REVIEWS.map((_, k) => (
               <i
                 key={k}
-                className={`h-4 rounded-full transition-all ${k === i ? "w-5 bg-primary" : "w-4 bg-[#d6d6e8]"}`}
+                className={`h-4 shrink-0 rounded-full transition-all ${k === i ? "w-5 bg-primary" : "w-4 bg-[#d6d6e8]"}`}
               />
             ))}
           </div>
           <button
             aria-label="السابق"
             onClick={() => setI(at(-1))}
-            className="group pointer-events-auto flex size-12 items-center justify-center rounded-full bg-white shadow-[0_0_7.5px_rgba(151,151,151,.15)] transition-colors hover:bg-primary"
+            className="group pointer-events-auto flex size-10 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_7.5px_rgba(151,151,151,.15)] transition-colors hover:bg-primary lg:size-12"
           >
             <img
               src={a("arrow-a.svg")}
               alt="arrow backward"
-              className="size-[25px] group-hover:brightness-0 group-hover:invert"
+              className="size-5 group-hover:brightness-0 group-hover:invert lg:size-[25px]"
             />
           </button>
         </div>
