@@ -5,7 +5,7 @@ export default function ImagineSection() {
   return (
     <Box inner="flex flex-col items-center gap-6 lg:gap-8">
             <Head tag="تخيل">
-              <Hi>اسمك</Hi> يكون براند
+           اسمك يكون <Hi>براند</Hi>
             </Head>
             <div className="flex w-full max-w-[1054px] flex-col gap-4 sm:gap-6 md:gap-5 lg:gap-6">
               {IMAGINE.map((t, i) => (
