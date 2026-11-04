@@ -14,7 +14,7 @@ export default function WhySection() {
               خبرة تتحول إلى <Hi>نظام</Hi> وليس مجرد محتوى
             </H2>
           </div>
-          <p className="whitespace-pre-line text-base leading-[1.5] text-body sm:text-lg">
+          <p className="whitespace-pre-line text-center lg:text-start text-base leading-[1.5] text-body sm:text-lg">
             {
               "على مدى 6 سنوات، اشتغلت مع أكثر من 500 علامة تجارية، وبنيت ظهور أكثر من 140 خبيرًا على لينكدإن وإكس: رفعت تأثيرهم، ووصلتهم لجمهورهم الصح، وحولت حساباتهم من نشر عشوائي إلى براند مقنع يجذب الفرص.\n\nما اكتب لك محتوى فقط؛ أبني لك نظام واضح، مستهدف، ومبني على استراتيجية تخلي اسمك أصلًا رقميًا يكبر مع الوقت."
             }
