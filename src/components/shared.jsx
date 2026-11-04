@@ -31,8 +31,10 @@ export const Tag = ({ children }) => (
     {children}
   </span>
 );
-export const H2 = ({ children }) => (
-  <h2 className="text-2xl font-medium leading-[1.5] sm:text-[32px] md:text-[28px] lg:text-[32px]">
+export const H2 = ({ children, className = "" }) => (
+  <h2
+    className={`text-2xl font-medium leading-[1.5] sm:text-[32px] md:text-[28px] lg:text-[32px] ${className}`}
+  >
     {children}
   </h2>
 );
