@@ -20,7 +20,7 @@ export default function OfferSection() {
             العرض
           </span>
           <h2 className="text-2xl font-bold leading-[1.5] text-heading sm:text-[32px] lg:text-[36px]">
-            باقة تمكين الرقمي
+            باقة التمكين الرقمي
           </h2>
         </Reveal>
         <p className="max-w-[1120px] text-center text-sm lg:text-base leading-[1.5] text-body sm:text-xl">

@@ -17,7 +17,7 @@ export default function ProblemSection() {
       <Reveal className="relative flex flex-col items-center gap-2 text-center md:gap-3 lg:gap-4">
         <Tag>تعرف هذا الشعور؟</Tag>
         <h2 className="text-2xl font-bold leading-10 sm:text-[32px] md:text-[28px] lg:text-[32px]">
-           إذا شفت <Hi>نفسك</Hi> في واحدة من هذه.. فأنت في المكان الصح
+          إذا شفت <Hi>نفسك</Hi> في واحدة من هذه.. فأنت في المكان الصح
         </h2>
       </Reveal>
       <div className="relative grid gap-4 sm:grid-cols-2 md:gap-5 lg:grid-cols-3">
@@ -36,8 +36,8 @@ export default function ProblemSection() {
       </div>
       <Reveal className="flex flex-col items-center gap-2 rounded-lg bg-tertiary px-4 py-7 text-center text-base sm:px-20 md:text-lg lg:text-xl md:px-12">
         <p>
-          وكل يوم يمر بدون استراتيجية: الوقت يضيع، الفرص تضيع، المنافس يكبر،
-          واسمك يختفي بين الزحمة.
+          وكل يوم يمر بدون استراتيجية: الوقت يضيع، الفرص تروح لغيرك، المنافس
+          يكبر، واسمك ينساه الجمهور.
         </p>
         <p>وتبدأ تسأل نفسك</p>
         <p className="text-lg font-medium text-primary md:text-xl lg:text-2xl">
